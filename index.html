@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+  /* Box */
+
+  .box {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin-bottom: 2em;
+    overflow: hidden;
+    padding: 4em;
+  }
+
+    .box > :last-child,
+    .box > :last-child > :last-child,
+    .box > :last-child > :last-child > :last-child {
+      margin-bottom: 0;
+    }
+
+    .box header h2 {
+      margin: 0 0 .5em 0;
+      color: #FFF;
+    }
+
+    .box header p {
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    .box.alt {
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+    }
+
+    @media screen and (max-width: 980px) {
+
+      .box {
+        padding: 3em;
+      }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+      .box {
+        padding: 2em;
+      }
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+      .box {
+        padding: 1em;
+      }
+
+    }
+
+  </style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>iPortfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/done.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Manohar Kumar</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio"><i class="bx bx-book-content"></i> Projects</a></li>
+          <li><a href="#services"><i class="bx bx-server"></i> Acheivement</a></li>
+          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Manohar Kumar</h1>
+      <p>I'm <span class="typed" data-typed-items="Web Developer, Badminton Player, Coder, Photographer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Myself Manohar Kumar currently pursuing B.tech-CSE from CGC Landran , Mohali. I am 21 year old and I am from Bihar .</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/done.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Web Developer.</h3>
+            <p class="font-italic">
+              You can just check my details below.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 29 June 1999</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.example.com</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +91-XXXXXXXXXX</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Chandigarh,India</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 21</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Bachelor </li>
+                  <li><i class="icofont-rounded-right"></i> <strong>EmailId:</strong> coecse.1726205@gmail.com</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>For Hiring:</strong> Available</li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              Seeking an entry-level position to begin my career in a high-level professional environment.
+              Looking for a challenging role in a reputable organization to utilize my skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT sector.
+
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p></p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">Python<i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+             <div class="progress">
+              <span class="skill">C++ <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Django <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Bootstrap <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>Click on smily just given below.</p>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <a href="https://drive.google.com/file/d/1jKyXLzqqpRXqXreRMRCwD1UHRXRRToqm/view?usp=sharing">
+              <span style='font-size:100px;'>&#128512;</span></a>
+              <h2>Resume</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Project Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Project1</li>
+              <li data-filter=".filter-card">Project2</li>
+              <li data-filter=".filter-web">Project3</li>
+              <li data-filter=".filter-mass">Project4</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class=" portfolio-item filter-app">
+            <article class="box">
+            <header>
+              <h2>Places-Go</h2>
+              <p>12.08.2020</p>
+            </header>
+            <div class="content">
+              <p>Language /Database : Django(Framework),Python, Google APIs(JSON data),HTML and CSS <br>
+              A Web Applicationbuild over Djangoused to find the famous places in a city user want to visit.It will give top 20 places in result with weather report and added google maps which shows the location of that place.</p>
+            </div>
+            <footer>
+              <a href="https://github.com/Manohar125643/Places-Go" class="button alt">Learn More</a>
+            </footer>
+          </article>
+          </div>
+
+
+          <div class="portfolio-item filter-card">
+            <article class="box">
+            <header>
+              <h2>Animal Image Analyser</h2>
+              <p>12.01.2020</p>
+            </header>
+            <div class="content">
+              <p>Language /Database : Python , AI/ML <br>
+              Design to automate the process of analyzing different images of animalsusing ML library and train data using fastai library.</p>
+            </div>
+            <footer>
+              <a href="https://github.com/Manohar125643/IMAGE_ANALYSER" class="button alt">Learn More</a>
+            </footer>
+          </article>
+          </div>
+
+
+
+          <div class="portfolio-item filter-web">
+            <article class="box">
+            <header>
+              <h2>Smart Deal</h2>
+              <p>11.05.2020</p>
+            </header>
+            <div class="content">
+              <p>Language /Database : Django(Framework), Python, HTMLand CSS   <br>
+              A  Web  application  build  over  Django  used  to  compare  the  prices  and  other components  of the product  that  user search.  We  scrap  the  data  from  website (e.g. Amazon, Flipkart) using BeautifulSoup</p>
+            </div>
+            <footer>
+              <a href="https://github.com/Manohar125643/Smart_Deal" class="button alt">Learn More</a>
+            </footer>
+          </article>
+          </div>
+
+          <div class="portfolio-item filter-mass">
+            <article class="box">
+            <header>
+              <h2>Your Assistant(Jarvis Type)</h2>
+              <p>01.11.2020</p>
+            </header>
+            <div class="content">
+              <p>Language /Database : Python and its libraries , ML/AI  <br>
+              It uses several artificial intelligence techniques, including natural language processing, speech recognition, face recognition, and reinforcement learning, written in Python. In this note, I'll explain what I built and what I learned along the way.</p>
+            </div>
+            <footer>
+              <a href="https://github.com/Manohar125643/Your_assistant" class="button alt">Learn More</a>
+            </footer>
+          </article>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+       <div class="section-title">
+          <h2>Acheivement</h2>
+        </div>
+       <div class="Acheivments">
+            
+            <div class="content">
+              <ul>
+                <li>Certification of excellence in Python and C++</li>
+                <li>Completed certification on Python for Data Science from IBM Cognitive Class</li>
+                <li>1st in Badminton tournament in college 2017</li>
+                <li>Part of NCC from 2013-2015 and having A certificate</li>
+                <li>Part of Scout &guide cadet (2011-12) </li>
+                <li>Completed Online Certification in AI through SkillUp</li>
+              </ul>
+          
+          </div>
+        </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>Chandigarh</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>coecse.1726205@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+91-XXXXXXXXXX</p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109741.02912938184!2d76.69348829691434!3d30.73506264413067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed0be66ec96b%3A0xa5ff67f9527319fe!2sChandigarh%2C%20India!5e0!3m2!1sen!2s!4v1607970563000!5m2!1sen!2s" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Manohar</span></strong>
+      </div>
+      <div class="credits">
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
